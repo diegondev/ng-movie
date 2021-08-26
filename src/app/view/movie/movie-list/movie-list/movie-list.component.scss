@@ -24,18 +24,6 @@
     }
 }
 
-@media (max-width: 700px) {
-    .movie-item {
-        width: 33%
-    }
-}
-
-@media (max-width: 500px) {
-    .movie-item {
-        width: 50%
-    }
-}
-
 .movie-cover {
     display: flex;
     margin-bottom: 8px;
@@ -74,5 +62,17 @@
     .movie-year {
         font-size: .9rem;
         font-weight: 600;
+    }
+}
+
+@media (max-width: 700px) {
+    .movie-item {
+        width: 33%
+    }
+}
+
+@media (max-width: 500px) {
+    .movie-item {
+        width: 50%
     }
 }

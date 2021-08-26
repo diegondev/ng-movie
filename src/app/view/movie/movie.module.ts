@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { MovieRoutingModule } from './movie-routing.module';
 import { MovieListComponent } from './movie-list/movie-list/movie-list.component';
+import { MovieViewComponent } from './movie-view/movie-view/movie-view.component';
 
 
 @NgModule({
   declarations: [
-    MovieListComponent
+    MovieListComponent,
+    MovieViewComponent
   ],
   imports: [
     CommonModule,
