@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="movie-container">
+        <div class="movie-item" *ngFor="let item of list" [routerLink]="'/home/'+item.pid">
+            <div class="movie-cover" [style.backgroundImage]="'url('+ item.poster +')'">
+                <span class="movie-year">{{item.ano}}</span>
+            </div>
+            <div class="movie-data">
+                <span class="movie-name">{{item.nome}}</span>
+            </div>
+        </div>
+    </div>
+</div>
