@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="movie-container">
+        <div class="navbar">
+            <button (click)="onBack()"><</button>
+        </div>
+        <div class="data-container">
+            <div class="left-side">
+                <img [src]="movie.poster" alt="Movie poster">
+            </div>
+            <div class="right-side">
+                <span class="movie-year">{{movie.ano}} - {{movie.genero}}</span>
+                <span class="movie-name">{{movie.nome}}</span>
+                <span class="movie-director">{{movie.diretor}}</span>
+                <span class="movie-description">{{movie.descricao}}</span>
+            </div>
+        </div>
+    </div>
+</div>
