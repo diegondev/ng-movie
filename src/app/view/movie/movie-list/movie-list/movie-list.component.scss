@@ -1,0 +1,42 @@
+.movie-container {
+    background-color: white;
+    padding: 16px;
+}
+
+.movie-item {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.movie-cover {
+    img {
+        width: 129px;
+        height: 184px;
+    }
+}
+
+.movie-data {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+
+    & > * {
+        margin-bottom: 8px;
+        width: 100%;
+
+        :hover {
+            background-color: lightgray;
+        }
+    }
+
+    .movie-name {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .movie-year {
+        font-size: .9rem;
+        font-weight: 600;
+    }
+
+}
