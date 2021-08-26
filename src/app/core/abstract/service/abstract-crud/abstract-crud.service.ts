@@ -4,7 +4,7 @@ import { Observable } from "rxjs";
 import { BASE_URL as CONST_BASE_URL } from "src/app/core/constant/api-url";
 
 export abstract class AbstractCrudService<T> {
-    private BASE_URL = CONST_BASE_URL;
+    public BASE_URL = CONST_BASE_URL;
 
     constructor(
         public http: HttpClient,
