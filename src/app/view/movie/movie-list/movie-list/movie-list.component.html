@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="movie-container">
+        <div class="movie-item" *ngFor="let item of list">
+            <div class="movie-cover">
+                <img [src]="item.poster" [alt]="" srcset="">
+            </div>
+            <div class="movie-data">
+                <span class="movie-name">{{item.nome}}</span>
+                <span class="movie-year">{{item.ano}}</span>
+                <span class="movie-director">{{item.diretor}}</span>
+                <span class="movie-gender">{{item.genero}}</span>
+                <span class="movie-description">{{item.descricao}}</span>
+            </div>
+        </div>
+    </div>
+</div>
