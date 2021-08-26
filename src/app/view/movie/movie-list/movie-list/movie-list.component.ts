@@ -13,4 +13,8 @@ export class MovieListComponent extends AbstractListComponent<MovieModel, MovieS
   constructor(service: MovieService) {
     super(service);
   }
+
+  public onClickMovie(event: any, movie: MovieModel) {
+    console.log(movie);
+  }
 }
