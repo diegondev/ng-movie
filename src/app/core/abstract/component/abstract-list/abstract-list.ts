@@ -1,6 +1,7 @@
-import { OnInit } from "@angular/core";
+import { Directive, OnInit } from "@angular/core";
 import { AbstractCrudService } from "../../service/abstract-crud/abstract-crud.service";
 
+@Directive()
 export abstract class AbstractListComponent<TModel extends any, TService extends AbstractCrudService<TModel>> 
     implements OnInit {
 

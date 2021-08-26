@@ -1,10 +1,10 @@
 
 import { HttpClient } from "@angular/common/http";
 import { Observable } from "rxjs";
-import { environment } from "src/environments/environment";
+import { BASE_URL as CONST_BASE_URL } from "src/app/core/constant/api-url";
 
 export abstract class AbstractCrudService<T> {
-    private BASE_URL = environment.baseUrl;
+    private BASE_URL = CONST_BASE_URL;
 
     constructor(
         public http: HttpClient,
@@ -14,6 +14,7 @@ export abstract class AbstractCrudService<T> {
     }
 
     public getAll(queryParams?: string): Observable<any> {
+        console.log(CONST_BASE_URL)
         return this.http.get(this.BASE_URL);
     }
 
