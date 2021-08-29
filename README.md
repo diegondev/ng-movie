@@ -1,26 +1,24 @@
 # NgMovie
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
+Projeto de catálogo de filme a partir de uma arquivo JSON local.
 
-## Development server
+Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 12.2.2.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<img src="src/assets/images/readme/ng-movie.gif" width="500" style="border-radius: 10px"/>
 
-## Code scaffolding
+## Como rodar?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Primeiro é necessário ter instalado o nodejs, o npm e a CLI do Angular.
+Então é necessário clonar o repositório e instalar as dependências usando npm com o seguinte comando:
 
-## Build
+```npm install```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+E agora é só executar o servidor local do prórpio Angular CLI com o comando:
 
-## Running unit tests
+```npm start``` ou ```ng serve```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+E acessar `http://localhost:4200/` para visualizar a aplicação rodando.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
